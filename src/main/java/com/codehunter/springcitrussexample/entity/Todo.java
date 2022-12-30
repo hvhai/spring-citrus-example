@@ -16,7 +16,7 @@ public class Todo {
     @Id
     @GeneratedValue(generator = "uuid2")
     @GenericGenerator(name = "uuid2", strategy = "org.hibernate.id.UUIDGenerator")
-    @Type(type="org.hibernate.type.UUIDCharType")
+    @Type(type="org.hibernate.type.UUIDCharType") // use that type to save value as string instead of binary
     private UUID id;
 
     @Setter
