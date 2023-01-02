@@ -7,9 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class SpringCitrusExampleApplicationTests {
 
-	@Test
-	void contextLoads() {
-		Assertions.assertThat(Boolean.TRUE).isTrue();
-	}
-
+  @Test
+  void contextLoads() {
+    Assertions.assertThat(Boolean.TRUE).isTrue();
+  }
 }
